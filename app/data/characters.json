@@ -1,0 +1,71 @@
+[
+    {
+      "id": "warrior",
+      "name": "Le Guerrier Sombre",
+      "description": "Un ancien chevalier déchu, armé d'une épée lourde et d'une armure imposante, il utilise sa force brute pour terrasser ses ennemis.",
+      "skills": [
+        {
+          "name": "Coup de Brute",
+          "effect": "Inflige de lourds dégâts à un ennemi.",
+          "damage": 35,
+          "manaCost": 20
+        },
+        {
+          "name": "Mur d'Acier",
+          "effect": "Augmente temporairement la défense et ajoute un bouclier qui absorbe des dégâts.",
+          "damage": 0,
+          "shield": 25,
+          "manaCost": 15
+        },
+        {
+          "name": "Rage du Berserker",
+          "effect": "Augmente les dégâts infligés de 25% pendant 3 tours.",
+          "damage": 0,
+          "selfBuff": "damage",
+          "buffAmount": 25,
+          "buffDuration": 3,
+          "manaCost": 25
+        },
+        {
+          "name": "Frappe Dévastatrice",
+          "effect": "Attaque puissante qui inflige des dégâts massifs mais coûte de la santé.",
+          "damage": 60,
+          "selfDamage": 10,
+          "manaCost": 30
+        }
+      ]
+    },
+    {
+      "id": "witch",
+      "name": "La Sorcière du Vide",
+      "description": "Maîtresse des arcanes interdits, elle manipule l'énergie du néant pour détruire et contrôler ses ennemis.",
+      "skills": [
+        {
+          "name": "Éclair du Néant",
+          "effect": "Inflige des dégâts d'ombre à un ennemi.",
+          "damage": 30,
+          "manaCost": 20
+        },
+        {
+          "name": "Vortex du Chaos",
+          "effect": "Immobilise les ennemis et inflige des dégâts mineurs sur 2 tours.",
+          "damage": 10,
+          "manaCost": 25
+        },
+        {
+          "name": "Bouclier Sombre",
+          "effect": "Crée un bouclier magique qui absorbe les dégâts pendant 3 tours.",
+          "damage": 0,
+          "shield": 40,
+          "manaCost": 20
+        },
+        {
+          "name": "Flammes du Néant",
+          "effect": "Lance une boule de feu qui inflige des dégâts massifs à tous les ennemis.",
+          "damage": 50,
+          "manaCost": 35
+        }
+      ]
+    }
+  ]
+  

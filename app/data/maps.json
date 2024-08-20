@@ -1,0 +1,25 @@
+[
+    {
+      "id": "map1",
+      "name": "Forêt Enchantée",
+      "description": "Une forêt dense remplie de créatures mystiques.",
+      "layout": [
+        ["E", "T", "W", "M"],
+        ["T", "E", "W", "E"],
+        ["W", "W", "E", "T"],
+        ["E", "E", "T", "M"]
+      ]
+    },
+    {
+      "id": "map2",
+      "name": "Désert Aride",
+      "description": "Un désert vaste et inhospitalier.",
+      "layout": [
+        ["S", "S", "S", "O"],
+        ["S", "D", "D", "S"],
+        ["S", "D", "D", "S"],
+        ["S", "S", "S", "O"]
+      ]
+    }
+  ]
+  
